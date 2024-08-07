@@ -17,7 +17,7 @@
 		272CBA772C6346D500845DE8 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 272CBA762C6346D500845DE8 /* Earth.usdz */; };
 		272CBA792C634C2500845DE8 /* moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 272CBA782C634C2500845DE8 /* moon.usdz */; };
 		272CBA7D2C63526500845DE8 /* MoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CBA7C2C63526500845DE8 /* MoonModel.swift */; };
-		27EAD6B62C6358D800154B68 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EAD6B52C6358D800154B68 /* demo.png */; };
+		27EAD6BE2C63A57E00154B68 /* starmap_2020_4k.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EAD6BD2C63A57E00154B68 /* starmap_2020_4k.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,7 @@
 		272CBA762C6346D500845DE8 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
 		272CBA782C634C2500845DE8 /* moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = moon.usdz; sourceTree = "<group>"; };
 		272CBA7C2C63526500845DE8 /* MoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonModel.swift; sourceTree = "<group>"; };
-		27EAD6B52C6358D800154B68 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
-		27EAD6B72C635A2E00154B68 /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
+		27EAD6BD2C63A57E00154B68 /* starmap_2020_4k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starmap_2020_4k.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +68,7 @@
 		272CBA5E2C63447900845DE8 /* MoveThreeD */ = {
 			isa = PBXGroup;
 			children = (
-				27EAD6B72C635A2E00154B68 /* demo2.png */,
-				27EAD6B52C6358D800154B68 /* demo.png */,
+				27EAD6BD2C63A57E00154B68 /* starmap_2020_4k.png */,
 				272CBA782C634C2500845DE8 /* moon.usdz */,
 				272CBA762C6346D500845DE8 /* Earth.usdz */,
 				272CBA632C63447900845DE8 /* MoveThreeDApp.swift */,
@@ -164,7 +162,7 @@
 			files = (
 				272CBA6C2C63447B00845DE8 /* Assets.xcassets in Resources */,
 				272CBA6F2C63447B00845DE8 /* Preview Assets.xcassets in Resources */,
-				27EAD6B62C6358D800154B68 /* demo.png in Resources */,
+				27EAD6BE2C63A57E00154B68 /* starmap_2020_4k.png in Resources */,
 				272CBA772C6346D500845DE8 /* Earth.usdz in Resources */,
 				272CBA792C634C2500845DE8 /* moon.usdz in Resources */,
 				272CBA6A2C63447900845DE8 /* ImageBasedLighting.skybox in Resources */,
