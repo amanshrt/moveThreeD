@@ -17,20 +17,25 @@ struct ImmersiveView: View {
             if let skyBox  = createSkyBox(){
                 content.add(skyBox)
             }
-            if let earthModel =  buildModel( modelName:"Earth", scaleValue: 0.5){
-                
-                if let moonModel =   buildModel(modelName: "moon", scaleValue: 0.1){
-                    earthModel.addChild(moonModel)
-                    
-                    let radians = 90.0 * Float.pi / 180.0
-                    
-                    moonModel.transform.translation += SIMD3<Float>(0.0, 1.0, 0.0)
-                    moonModel.orientation = simd_quatf(angle: radians, axis: SIMD3(x: 0, y: 1, z: 0))
-                    moonModel.transform.scale *= 0.5
-                    
-                    content.add(moonModel)
-                }
-                content.add(earthModel)
+            
+            if let sunModel = buildModel(modelName: "sun", scaleValue: 2){
+//                if let earthModel =  buildModel( modelName:"Earth", scaleValue: 0.5){
+//                    sunModel.addChild(earthModel)
+//                    
+//                    if let moonModel =   buildModel(modelName: "moon", scaleValue: 0.1){
+//                        earthModel.addChild(moonModel)
+//                        
+//                        let radians = 90.0 * Float.pi / 180.0
+//                        
+//                        moonModel.transform.translation += SIMD3<Float>(0.0, 1.0, 0.0)
+//                        moonModel.orientation = simd_quatf(angle: radians, axis: SIMD3(x: 0, y: 1, z: 0))
+//                        moonModel.transform.scale *= 0.5
+//                        
+//                        content.add(moonModel)
+//                    }
+//                    content.add(earthModel)
+//                }
+                content.add(sunModel)
             }
     
         }

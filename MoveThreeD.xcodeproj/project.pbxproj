@@ -18,6 +18,7 @@
 		272CBA792C634C2500845DE8 /* moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 272CBA782C634C2500845DE8 /* moon.usdz */; };
 		272CBA7D2C63526500845DE8 /* MoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CBA7C2C63526500845DE8 /* MoonModel.swift */; };
 		27EAD6BE2C63A57E00154B68 /* starmap_2020_4k.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EAD6BD2C63A57E00154B68 /* starmap_2020_4k.png */; };
+		27EAD6C02C63A63700154B68 /* sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27EAD6BF2C63A63600154B68 /* sun.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		272CBA782C634C2500845DE8 /* moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = moon.usdz; sourceTree = "<group>"; };
 		272CBA7C2C63526500845DE8 /* MoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonModel.swift; sourceTree = "<group>"; };
 		27EAD6BD2C63A57E00154B68 /* starmap_2020_4k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starmap_2020_4k.png; sourceTree = "<group>"; };
+		27EAD6BF2C63A63600154B68 /* sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sun.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		272CBA5E2C63447900845DE8 /* MoveThreeD */ = {
 			isa = PBXGroup;
 			children = (
+				27EAD6BF2C63A63600154B68 /* sun.usdz */,
 				27EAD6BD2C63A57E00154B68 /* starmap_2020_4k.png */,
 				272CBA782C634C2500845DE8 /* moon.usdz */,
 				272CBA762C6346D500845DE8 /* Earth.usdz */,
@@ -166,6 +169,7 @@
 				272CBA772C6346D500845DE8 /* Earth.usdz in Resources */,
 				272CBA792C634C2500845DE8 /* moon.usdz in Resources */,
 				272CBA6A2C63447900845DE8 /* ImageBasedLighting.skybox in Resources */,
+				27EAD6C02C63A63700154B68 /* sun.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
